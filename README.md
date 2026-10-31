@@ -89,6 +89,6 @@ After running the program and completing your tests, save your own screenshots a
 The screenshots must show real results from your computer. Do not use fabricated screenshots.
 
 ## Author
-[Your name]  
-[Your batch / course]  
+[Amresh Choudhary]  
+[ Course : AI with cybersecurity]  
 EWB Courses
