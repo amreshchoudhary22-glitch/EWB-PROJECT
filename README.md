@@ -269,5 +269,7 @@ Distributed under the **MIT License**. Add a `LICENSE` file to the repository ro
  EWB Courses : AI with Cybersecurity
 [LinkedIn](https://linkedin.com/in/amresh-choudhary-a17443360
 
-) · [GitHub](https://github.com/amreshchoudhary22-glitch) · E mail id : amreshchoudhary22@gmail.com
+)
+· [GitHub](https://github.com/amreshchoudhary22-glitch)
+· E mail id : amreshchoudhary22@gmail.com
 
