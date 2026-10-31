@@ -22,4 +22,4 @@ Run the program once per sample. Record the actual messages shown on your comput
 | Enter `q` | Prints goodbye and exits | [record actual output] | [PASS/FAIL] |
 
 ## Notes
-[Write 2-3 lines about what you learned and what surprised you.]
+I learned that phishing URLs often give themselves away through structure alone, such as an @ symbol, a raw IP address, or too many subdomains. What surprised me was that a URL with no warning signs still isn't proof of safety, so the tool can only point out red flags. I also found that malformed input like http://[bad crashes URL parsing unless it is handled with try/except.
