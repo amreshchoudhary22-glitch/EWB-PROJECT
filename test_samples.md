@@ -18,8 +18,8 @@ Run the program once per sample. Record the actual messages shown on your comput
 
 | Input / action | Expected behaviour | Actual result | Pass/Fail |
 |---|---|---|---|
-| `http://[bad` | Prints `This text is not a valid URL format.` and continues | [record actual output] | [PASS/FAIL] |
-| Enter `q` | Prints goodbye and exits | [record actual output] | [PASS/FAIL] |
+| `http://[bad` | Prints `This text is not a valid URL format.` and continues | [Printed - This text is not a valid URL format. and asked for the next URL. No crash] | [PASS] |
+| Enter `q` | Prints goodbye and exits | [Printed Goodbye! Stay alert online. and exited normally] | [PASS] |
 
 ## Notes
 I learned that phishing URLs often give themselves away through structure alone, such as an @ symbol, a raw IP address, or too many subdomains. What surprised me was that a URL with no warning signs still isn't proof of safety, so the tool can only point out red flags. I also found that malformed input like http://[bad crashes URL parsing unless it is handled with try/except.
