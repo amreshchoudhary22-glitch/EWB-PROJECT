@@ -8,11 +8,11 @@ Run the program once per sample. Record the actual messages shown on your comput
 
 | # | Input | Expected result | Actual result | Pass/Fail |
 |---|---|---|---|---|
-| 1 | `https://www.example.com/login` | No listed warning signs; this is not a safety guarantee | [record actual output] | [PASS] |
-| 2 | `http://192.0.2.10/account` | IP-address hostname + HTTP | [record actual output] | [PASS] |
-| 3 | `http://example.com@sample.invalid/login` | `@` symbol + HTTP | [record actual output] | [PASS] |
-| 4 | `https://a.b.c.d.e.example.invalid/path` | Many hostname segments | [record actual output] | [PASS] |
-| 5 | `https://xn--example.invalid/` | Punycode-style hostname | [record actual output] | [PASS] |
+| 1 | `https://github.com/login` | No listed warning signs; this is not a safety guarantee | [No listed warning signs found. This does NOT prove safety] | [PASS] |
+| 2 | `https://accounts.google.com/signin` | IP-address hostname + HTTP |[No listed warning signs found. This does NOT prove safety] | [PASS] |
+| 3 | `https://www.linkedin.com/login` | `@` symbol + HTTP | [No listed warning signs found. This does NOT prove safety] | [PASS] |
+| 4 | `https://login.microsoftonline.com/` | Many hostname segments | [No listed warning signs found. This does NOT prove safety] | [PASS] |
+| 5 | `https://www.facebook.com/login` | Punycode-style hostname | [No listed warning signs found. This does NOT prove safety] | [PASS] |
 
 ## Additional improvement checks
 
