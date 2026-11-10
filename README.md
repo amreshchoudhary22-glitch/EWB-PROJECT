@@ -8,7 +8,7 @@ This beginner-friendly Python command-line project checks the **text** of a URL 
 - Flags unusually long URLs (over 100 characters)
 - Flags IPv4-looking hostnames
 - Flags hostnames with 5 or more dot-separated segments
-- Flags punycode-style hostnames containing `xn--`
+- Flags punycode-style hostnames containing `goo--`
 - Flags the HTTP scheme
 - Repeats checks until the user enters `q`, `quit`, or `exit`
 - Handles malformed URL input without crashing
